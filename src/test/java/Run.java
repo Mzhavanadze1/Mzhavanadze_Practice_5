@@ -35,5 +35,14 @@ public class Run {
         System.out.println("partobi: " + shedegi3);
 
 
+        //Task4
+
+        System.out.println( "chawere saxeli");
+        Scanner input4= new Scanner(System.in);
+        String name = input4.nextLine();
+        Task4 task4 = new Task4();
+        task4.greet();
+        task4.greet(name);
+
     }
 }
