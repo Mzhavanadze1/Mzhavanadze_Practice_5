@@ -10,5 +10,18 @@ public class Run {
         System.out.println(task1.isEven(ricxvi));
 
 
+        //Task2
+
+        System.out.println("Task2");
+        System.out.println("chawere 3 ricxvi:");
+        Scanner input2=new Scanner(System.in);
+        Task2 task2= new Task2();
+        int a =input2.nextInt();
+        int b =input2.nextInt();
+        int c =input2.nextInt();
+        int shedegi2= task2.findLargest(a,b,c);
+        System.out.println("largest number :" + shedegi2);
+
+
     }
 }
