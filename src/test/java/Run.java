@@ -23,5 +23,17 @@ public class Run {
         System.out.println("largest number :" + shedegi2);
 
 
+        //Task3
+
+        System.out.println("Task3");
+        System.out.println("chawere sigrdze da sigane");
+        Scanner input3=new Scanner(System.in);
+        Task3 task3 = new Task3();
+        double x = input3.nextDouble();
+        double y = input3.nextDouble();
+        double shedegi3= task3.calculateArea(x,y);
+        System.out.println("partobi: " + shedegi3);
+
+
     }
 }
