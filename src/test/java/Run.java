@@ -44,5 +44,16 @@ public class Run {
         task4.greet();
         task4.greet(name);
 
+
+        //Task5
+
+        System.out.println("Task5");
+        System.out.println("chawere temperatura");
+        Scanner input5 = new Scanner(System.in);
+        double Fahrenheit = input5.nextDouble();
+        Task5 task5 = new Task5();
+        System.out.println(task5.convertToCelsius(Fahrenheit));
+
+
     }
 }
